@@ -9,7 +9,11 @@ async function getJobs() {
       description: "We are looking for a software developer to join our team.",
       company: "ABC Corporation",
       location: "New York, NY",
-      salary: "$100,000",
+      salary: {
+        min: 100000,
+        max: 200000,
+        currency: "IND",
+      },
       type: "Full-time",
     },
     {
@@ -18,7 +22,11 @@ async function getJobs() {
       description: "We are looking for a product manager to join our team.",
       company: "XYZ Corporation",
       location: "Los Angeles, CA",
-      salary: "$80,000",
+      salary: {
+        min: 80000,
+        max: 120000,
+        currency: "USD",
+      },
       type: "Full-time",
     },
     {
@@ -28,8 +36,29 @@ async function getJobs() {
         "We are looking for a marketing coordinator to join our team.",
       company: "DEF Corporation",
       location: "Chicago, IL",
-      salary: "$60,000",
+      salary: {
+        type: "hourly",
+        min: 60,
+        max: 90,
+        currency: "USD",
+      },
       type: "Full-time",
+    },
+    {
+      id: 4,
+      title: "Sales Representative",
+      description:
+        "We are looking for a sales representative to join our team.",
+      company: "GHI Corporation",
+      location: "Houston, TX",
+      salary: {
+        type: "Annualy",
+        min: 80000,
+        max: 120000,
+        currency: "USD",
+      },
+      type: "Full-time",
+      tags: ["sales", "marketing"],
     },
   ];
 }
@@ -37,13 +66,13 @@ async function getJobs() {
 const JoblistingPage = async () => {
   const jobListings = await getJobs();
   return (
-    <div>
+    <div className="p-4">
       <h1>Job Listings</h1>
-      <ul>
+      <div className="grid grid-cols-3 gap-4">
         {jobListings.map((job) => (
           <JobCard job={job} key={job.id} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

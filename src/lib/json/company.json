@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "ABC Corporation",
+        "industry": "Technology",
+        "description": "A leading technology firm specializing in cutting-edge cloud solutions.",
+        "size": "500+ employees",
+        "location": "New York, NY",
+        "website": "https://www.abccorp.com"
+    },
+    {
+        "id": 2,
+        "name": "XYZ Corporation",
+        "industry": "Healthcare",
+        "description": "Innovative healthcare solutions provider aiming to revolutionize patient care.",
+        "size": "300+ employees",
+        "location": "San Francisco, CA",
+        "website": "https://www.xyzcorp.com"
+    },
+    {
+        "id": 3,
+        "name": "DEF Corporation",
+        "industry": "Marketing",
+        "description": "A creative marketing agency focused on digital advertising and brand development.",
+        "size": "150+ employees",
+        "location": "Chicago, IL",
+        "website": "https://www.defcorp.com"
+    },
+    {
+        "id": 4,
+        "name": "GHI Industries",
+        "industry": "Manufacturing",
+        "description": "Global leader in manufacturing advanced industrial machinery and automation systems.",
+        "size": "1000+ employees",
+        "location": "Detroit, MI",
+        "website": "https://www.ghiindustries.com"
+    },
+    {
+        "id": 5,
+        "name": "JKL Media",
+        "industry": "Media",
+        "description": "Dynamic media house producing award-winning films, documentaries, and digital content.",
+        "size": "200+ employees",
+        "location": "Los Angeles, CA",
+        "website": "https://www.jklmedia.com"
+    },
+    {
+        "id": 6,
+        "name": "MNO Realty",
+        "industry": "Real Estate",
+        "description": "Premier real estate firm with a focus on luxury residential properties and commercial real estate investments.",
+        "size": "250+ employees",
+        "location": "Miami, FL",
+        "website": "https://www.mnorealty.com"
+    },
+    {
+        "id": 7,
+        "name": "PQR Logistics",
+        "industry": "Logistics",
+        "description": "Provides comprehensive logistics solutions, specializing in freight and supply chain management services.",
+        "size": "400+ employees",
+        "location": "Dallas, TX",
+        "website": "https://www.pqrlogistics.com"
+    },
+    {
+        "id": 8,
+        "name": "STU Electronics",
+        "industry": "Electronics",
+        "description": "Innovator in consumer electronics, known for high-quality audio and video products.",
+        "size": "500+ employees",
+        "location": "San Diego, CA",
+        "website": "https://www.stuelectronics.com"
+    },
+    {
+        "id": 9,
+        "name": "VWX Fashion",
+        "industry": "Fashion",
+        "description": "Cutting-edge fashion label featuring contemporary designs and sustainable materials.",
+        "size": "300+ employees",
+        "location": "New York, NY",
+        "website": "https://www.vwxfashion.com"
+    },
+    {
+        "id": 10,
+        "name": "YZA Foods",
+        "industry": "Food & Beverages",
+        "description": "A rapidly growing food company focusing on organic and health-conscious food products.",
+        "size": "150+ employees",
+        "location": "Portland, OR",
+        "website": "https://www.yzafoods.com"
+    }
+]

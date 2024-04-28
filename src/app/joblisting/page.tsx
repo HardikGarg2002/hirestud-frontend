@@ -1,78 +1,19 @@
-import JobCard from "@/components/jobs/JobCard";
-import React from "react";
+import jobdata from "@/lib/json/job.json";
 
-async function getJobs() {
-  return [
-    {
-      id: 1,
-      title: "Software Developer",
-      description: "We are looking for a software developer to join our team.",
-      company: "ABC Corporation",
-      location: "New York, NY",
-      salary: {
-        min: 100000,
-        max: 200000,
-        currency: "IND",
-      },
-      type: "Full-time",
-    },
-    {
-      id: 2,
-      title: "Product Manager",
-      description: "We are looking for a product manager to join our team.",
-      company: "XYZ Corporation",
-      location: "Los Angeles, CA",
-      salary: {
-        min: 80000,
-        max: 120000,
-        currency: "USD",
-      },
-      type: "Full-time",
-    },
-    {
-      id: 3,
-      title: "Marketing Coordinator",
-      description:
-        "We are looking for a marketing coordinator to join our team.",
-      company: "DEF Corporation",
-      location: "Chicago, IL",
-      salary: {
-        type: "hourly",
-        min: 60,
-        max: 90,
-        currency: "USD",
-      },
-      type: "Full-time",
-    },
-    {
-      id: 4,
-      title: "Sales Representative",
-      description:
-        "We are looking for a sales representative to join our team.",
-      company: "GHI Corporation",
-      location: "Houston, TX",
-      salary: {
-        type: "Annualy",
-        min: 80000,
-        max: 120000,
-        currency: "USD",
-      },
-      type: "Full-time",
-      tags: ["sales", "marketing"],
-    },
-  ];
-}
+import JobCard from "@/components/jobs/JobCard";
 
 const JoblistingPage = async () => {
-  const jobListings = await getJobs();
+  const jobListings = jobdata;
   return (
-    <div className="p-4">
-      <h1>Job Listings</h1>
-      <div className="grid grid-cols-3 gap-4">
+    <div className="p-5 bg-gray-100 ">
+      <h1 className="text-3xl font-bold text-center mb-10">All Jobs</h1>
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {jobListings.map((job) => (
-          <JobCard job={job} key={job.id} />
+          <li key={job.id}>
+            <JobCard job={job} />
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

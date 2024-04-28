@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Software Developer",
+        "description": "We are looking for a software developer to join our team.",
+        "company": "ABC Corporation",
+        "location": "New York, NY",
+        "salary": "$100,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 2,
+        "title": "Product Manager",
+        "description": "We are looking for a product manager to join our team.",
+        "company": "XYZ Corporation",
+        "location": "Los Angeles, CA",
+        "salary": "$80,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 3,
+        "title": "Marketing Coordinator",
+        "description": "We are looking for a marketing coordinator to join our team.",
+        "company": "DEF Corporation",
+        "location": "Chicago, IL",
+        "salary": "$60,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 4,
+        "title": "Human Resources Specialist",
+        "description": "Join our HR team to help source, recruit, and maintain our company's culture.",
+        "company": "GHI Industries",
+        "location": "Dallas, TX",
+        "salary": "$70,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 5,
+        "title": "Data Analyst",
+        "description": "Seeking a skilled data analyst to help with data interpretation and insights.",
+        "company": "JKL Solutions",
+        "location": "San Francisco, CA",
+        "salary": "$95,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 6,
+        "title": "Sales Representative",
+        "description": "Dynamic sales representative needed to drive sales and client relationships.",
+        "company": "MNO Corporation",
+        "location": "Miami, FL",
+        "salary": "$50,000 plus commission",
+        "type": "Full-time"
+    },
+    {
+        "id": 7,
+        "title": "Graphic Designer",
+        "description": "Creative graphic designer to lead our visual and digital designs.",
+        "company": "PQR Studios",
+        "location": "Seattle, WA",
+        "salary": "$65,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 8,
+        "title": "IT Support Technician",
+        "description": "We need a tech-savvy IT support technician to manage our office IT needs.",
+        "company": "STU Tech",
+        "location": "Denver, CO",
+        "salary": "$55,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 9,
+        "title": "Operations Manager",
+        "description": "Operations manager to streamline our processes and improve efficiency.",
+        "company": "VWX Enterprises",
+        "location": "Boston, MA",
+        "salary": "$110,000",
+        "type": "Full-time"
+    },
+    {
+        "id": 10,
+        "title": "Executive Assistant",
+        "description": "Highly organized and dedicated executive assistant needed for a senior executive.",
+        "company": "YZA Corp",
+        "location": "Washington, DC",
+        "salary": "$75,000",
+        "type": "Full-time"
+    }
+]
